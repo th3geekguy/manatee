@@ -1,0 +1,48 @@
+markdown_extensions:
+  - admonition
+  - def_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+        #auto_title: true
+      pygments_lang_class: true
+      use_pygments: true
+  - pymdownx.keys
+  - pymdownx.superfences
+plugins:
+  - search
+  - tags
+site_name: The New & Improved Mirantis Knowledgebase
+site_url: https://th3geekguy.github.org/manatee
+theme:
+  features:
+    - content.footnote.tooltips
+    - navigation.tabs
+    - navigation.tracking
+    - search.suggest
+  icon:
+    logo: fontawesome/brands/docker
+  favicon: fontawesome/brands/docker
+  name: material
+  palette:
+    - media: "(prefes-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      accent: indigo
+      primary: pink
+
+
+    - media: "(prefes-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      accent: indigo
+      primary: pink
+
