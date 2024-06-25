@@ -1,4 +1,7 @@
 ---
+title: Calico Troubleshooting
+authors: Phillip Benzinger
+status: new
 tags:
   - networking
   - MKE
