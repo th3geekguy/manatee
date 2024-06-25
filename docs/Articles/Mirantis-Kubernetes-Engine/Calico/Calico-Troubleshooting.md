@@ -1,3 +1,11 @@
+---
+tags:
+  - networking
+  - MKE
+  - Calico
+  - protocol
+---
+
 # Calico Troubleshooting
 
 - Calico is a CNI provider for Kubernetes
